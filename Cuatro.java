@@ -67,6 +67,9 @@ public class Cuatro2
                 System.out.println("Costo Total: " + costo); 
             }
             //Si el usuario desea seguir la compra se regresa al menu de inventario actualizado
+            //*IMPORTANTE* (Borrar esto cuando se haga el cambio) | Que da por hacer que se repita la opcion 
+            //(con los datos actualizados de la tienda refiriendose la cantidad)
+            
             //Si desea terminar la compra se finaliza el programa
             System.out.println("¿Deseas terminar la compra o seguir? \n"
                                 + "Si deseas salir          |   Introduzca 5 \n"
@@ -80,4 +83,3 @@ public class Cuatro2
         scan.close();
     }
 }
-        //Que da por hacer que se repita la opcion (con los datos actualizados de la tienda refiriendose la cantidad)
